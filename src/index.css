@@ -1,0 +1,81 @@
+.react-flow__node-input {
+  /* Your CSS styles for input elements within nodes */
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #ff0072;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+
+.button {
+  background-color: #FFF2D7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+ aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #FFF2D7;
+}
+
+ aside .description {
+  margin-bottom: 10px;
+}
+
+/* .dndflow .dndnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+} */
+
+.dndnode.input {
+  border-radius: '50%';
+  height: '100px';
+  width: '100px';
+  border-Color: 'black';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dndnode.output {
+  border-color: #ff0072;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.selectall {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 20%;
+    max-width: 250px;
+  }
+}
