@@ -34,7 +34,7 @@
   margin-bottom: 10px;
 }
 
-/* .dndflow .dndnode {
+.dndflow .dndnode {
   height: 20px;
   padding: 4px;
   border: 1px solid #1a192b;
@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   cursor: grab;
-} */
+}
 
 .dndnode.input {
   border-radius: '50%';
@@ -78,4 +78,26 @@
     width: 20%;
     max-width: 250px;
   }
+}
+
+.updatenode__controls {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 4;
+  font-size: 12px;
+}
+
+.updatenode__controls label {
+  display: block;
+}
+
+.updatenode__bglabel {
+  margin-top: 10px;
+}
+
+.updatenode__checkboxwrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
